@@ -4,7 +4,12 @@ const app = Vue.createApp({
         return {
             product: 'Socks',
             image: './assets/images/socks_green.jpg',
-            url: 'https://web.facebook.com/profile.php?id=100015476430451'
+            url: 'https://web.facebook.com/profile.php?id=100015476430451',
+            inStock: true, 
+            inVentory: 5,
+            show: true
+
+
         }
     }
 })
