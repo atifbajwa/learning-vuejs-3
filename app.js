@@ -1,12 +1,11 @@
-// Creating vue app
 const app = Vue.createApp({
     data() {
         return {
             cart: [],
-            premium: false
+            premium: true
         }
     },
-    methods:{
+    methods: {
         updateCart(id) {
             this.cart.push(id)
         }
